@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Developers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Developer" type="DeveloperType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="DeveloperType">
+        <xs:sequence>
+            <xs:element name="Salary" type="xs:double"/>
+            <xs:element name="Skills" type="xs:string"/>
+            <xs:element name="Position" type="PositionType"/>
+            <xs:element name="ProgrammingLanguage" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="PositionType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Junior"/>
+            <xs:enumeration value="Middle"/>
+            <xs:enumeration value="Senior"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

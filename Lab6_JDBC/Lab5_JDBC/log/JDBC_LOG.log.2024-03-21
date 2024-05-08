@@ -1,0 +1,1 @@
+21.03.2024 23:45:11 [main] ERROR Main  - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)

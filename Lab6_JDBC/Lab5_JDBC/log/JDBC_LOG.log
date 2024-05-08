@@ -1,0 +1,3 @@
+12.04.2024 00:41:50 [main] ERROR Main  - java.sql.SQLSyntaxErrorException: Unknown database 'timetable'
+12.04.2024 00:57:07 [main] ERROR Main  - java.sql.SQLException: Column 'type_name' not found.
+12.04.2024 00:58:40 [main] ERROR Main  - java.sql.SQLException: Column 'type_name' not found.

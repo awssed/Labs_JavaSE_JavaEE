@@ -1,0 +1,20 @@
+<Developers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="developers.xsd">
+    <Developer>
+        <Salary>5000.00</Salary>
+        <Skills>Java, Python</Skills>
+        <Position>Junior</Position>
+        <ProgrammingLanguage>Java</ProgrammingLanguage>
+    </Developer>
+    <Developer>
+        <Salary>8000.00</Salary>
+        <Skills>C#, SQL</Skills>
+        <Position>Senior</Position>
+        <ProgrammingLanguage>C#</ProgrammingLanguage>
+    </Developer>
+    <Developer>
+        <Salary>6000.00</Salary>
+        <Skills>JavaScript, HTML, CSS</Skills>
+        <Position>Middle</Position>
+        <ProgrammingLanguage>JavaScript</ProgrammingLanguage>
+    </Developer>
+</Developers>

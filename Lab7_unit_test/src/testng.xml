@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Мой тестовый набор">
+    <test name="by.safonov.IT_company.Employee.Developer.TestClassEmployee">
+        <classes>
+            <class name="by.safonov.IT_company.Employee.Developer.TestClassEmployee" />
+            <class name="by.safonov.IT_company.TestDirectorEmployee"></class>
+        </classes>
+    </test>
+</suite>
